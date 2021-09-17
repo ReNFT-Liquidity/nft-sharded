@@ -1,0 +1,23 @@
+{
+  "name": "nftshardedfactory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "waffle",
+    "compile": "waffle",
+    "test": "export NODE_ENV=test && mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@poanet/solidity-flattener": "^3.0.6"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.3.1",
+    "ethereum-waffle": "^3.4.0"
+  }
+}

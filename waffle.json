@@ -1,0 +1,25 @@
+{
+  "compilerType": "solcjs",
+  "compilerVersion": "0.8.0",
+  "compilerOptions": {
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode.object",
+          "evm.deployedBytecode.object",
+          "abi",
+          "evm.bytecode.sourceMap",
+          "evm.deployedBytecode.sourceMap",
+          "metadata"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    }
+  }
+}
